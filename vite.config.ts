@@ -4,9 +4,13 @@ import svgr from 'vite-plugin-svgr'
 import path from 'path'
 
 
+
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react(), svgr()],
+  build: {
+    assetsDir: 'assets',
+  },
   server: {
     hmr: { host: 'localhost' },
     origin: 'http://localhost:3000',
