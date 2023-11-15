@@ -1,11 +1,13 @@
-
-
+import Navbar from "./components/Navbar/Navbar"
+import { GlobalStyle } from "./styles/global"
 
 function App() {
-  
-
   return (
-    <h1>Portfolio</h1>
+    <>
+      <GlobalStyle/>
+      <Navbar />
+    </>
+    
   )
 }
 
