@@ -3,7 +3,7 @@ import Header from '../Header/Header'
 
 const Navbar = () => {
   return (
-    <Styles.Navbar>
+    <Styles.Navbar>  
         <Styles.Item>
             <Header />
         </Styles.Item>

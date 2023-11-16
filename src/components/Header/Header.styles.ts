@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import {motion} from 'framer-motion'
 
 const Header = styled.div`
     height: 100px;
@@ -13,7 +14,7 @@ const Wrapper = styled.div`
     height: 100%;
 `
 
-const Title = styled.div`
+const Title = styled(motion.span)`
     font-weight: bold;
 `
 
