@@ -2,7 +2,7 @@ import Sidebar from '../Sidebar/Sidebar'
 import Styles from './Header.styles'
 import {Us, Br} from 'react-flags-select'
 
-const FLAG_SIZE = 25
+const FLAG_SIZE = 50
 
 const Header = () => {
   return (
