@@ -4,14 +4,14 @@ import Header from '../Header/Header'
 const Navbar = () => {
   return (
     <Styles.Navbar>  
-        <Styles.Item>
+        <Styles.Item id="#">
             <Header />
         </Styles.Item>
-        <Styles.Item>Sobre</Styles.Item>
-        <Styles.Item>Serviços</Styles.Item>
-        <Styles.Item>Tecnologias</Styles.Item>
-        <Styles.Item>Projetos</Styles.Item>
-        <Styles.Item>Contato</Styles.Item>
+        <Styles.Item id="Homepage">Homepage</Styles.Item>
+        <Styles.Item id="Services">Services</Styles.Item>
+        <Styles.Item id="Portfolio">Portfolio</Styles.Item>
+        <Styles.Item id="Contact">Contact</Styles.Item>
+        <Styles.Item id="About">About</Styles.Item>
     </Styles.Navbar>
   )
 }

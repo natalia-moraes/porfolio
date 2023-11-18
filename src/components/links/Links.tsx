@@ -1,10 +1,21 @@
 import React from 'react'
+import Styles from './Links.styles'
+
+const items = [
+  "Homepage",
+  "Services",
+  "Portfolio",
+  "Contact",
+  "About",
+]
 
 const Links = () => {
   return (
-    <div>
-      links
-    </div>
+    <Styles.Links>
+      {items.map((item) => (
+        <a href={`#${item}`} key={item}>{item}</a>
+      ))}
+    </Styles.Links>
   )
 }
 

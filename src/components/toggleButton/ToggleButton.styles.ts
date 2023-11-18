@@ -7,8 +7,10 @@ const Button = styled.button`
     border-radius: 50%;
     position: fixed;
     top: 25px;
+    left: 25px;
     background-color: transparent;
     border: none;
+    cursor: pointer;
 `
 
 export default {

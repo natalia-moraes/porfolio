@@ -1,11 +1,11 @@
 import Styles from './ToggleButton.styles'
 
 interface IToggleButton {
-  openNavbar: () => void
+  openNavbar: React.Dispatch<React.SetStateAction<boolean>>;
 }
-const ToggleButton = ({openNavbar}:IToggleButton) => {
+const ToggleButton = ({openNavbar}: IToggleButton) => {
   return (
-    <Styles.Button onClick={openNavbar}>
+    <Styles.Button onClick={() => openNavbar(prev => !prev)}>
       Button
     </Styles.Button>
   )
