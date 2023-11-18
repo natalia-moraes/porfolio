@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import Styles from './Sidebar.styles'
 import ToggleButton from '../toggleButton/ToggleButton'
 import Links from '../links/Links'
