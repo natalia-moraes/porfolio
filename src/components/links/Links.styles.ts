@@ -1,7 +1,8 @@
 import styled from 'styled-components'
+import {motion} from 'framer-motion'
 
 
-const Links = styled.div`
+const Links = styled(motion.div)`
     position: absolute;
     width: 100%;
     height: 100%;
@@ -16,6 +17,9 @@ const Links = styled.div`
     }
 `
 
+const Item = styled(motion.a)``
+
 export default {
     Links,
+    Item,
 }
